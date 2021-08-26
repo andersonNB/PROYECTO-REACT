@@ -1,11 +1,11 @@
 import MoviesGrid from "./MoviesGrid";
-
+import estilos from "../App.module.css"
 
 function AppComp() {
     return (
         <div>
             <header>
-                <h1>Movies</h1>
+                <h1 className={estilos.title}>Movies</h1>
             </header>
 
             <main>
